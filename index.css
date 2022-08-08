@@ -1,0 +1,124 @@
+body {
+    margin: 5px;
+}
+
+.container {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+}
+
+.row-type {
+    display: flex;
+    margin-left: 50px;
+}
+
+.matrix {
+    display: inline-block;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: rgb(19, 160, 255);
+}
+
+.row {
+    display: flex;
+    
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-color: #fff;
+    background-color: rgb(19, 160, 255);
+}
+
+.plus-btn-right {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(233, 154, 6);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.plus-btn-bottom {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(233, 154, 6);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    border: none;
+    margin-left: 52px;
+    cursor: pointer;
+}
+
+.minus-btn-left {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.911);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+    left: -54px;
+    top: 52px;
+}
+
+.minus-btn-top {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.911);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+    position: relative;
+    left: 52px;
+}
+
+.plus-btn-bottom:hover{
+    background-color: rgba(250, 171, 0, 0.63);
+}
+
+.plus-btn-right:hover{
+    background-color: rgba(250, 171, 0, 0.63);
+}
+
+.minus-btn-top:hover {
+    background-color: rgba(255, 1, 1, 0.651);
+}
+
+.minus-btn-left:hover {
+    background-color: rgba(255, 1, 1, 0.651);
+}
+
+.container:hover > .minus-btn-top {
+    visibility: visible;
+}
+
+.container:hover > .minus-btn-left {
+    visibility: visible;
+}
+
+
+
+
